@@ -1,0 +1,43 @@
+{
+  "branding": {
+    "appName": "Bright Future School",
+    "primaryColor": "#2563eb",
+    "tagline": "Shaping Tomorrow's Leaders",
+    "logoUrl": ""
+  },
+  "features": {
+    "onlineClasses": false,
+    "examResults": false,
+    "parentPortal": false,
+    "assignmentSubmission": false,
+    "libraryManagement": false,
+    "transportManagement": false,
+    "feeManagement": false,
+    "attendanceTracking": false,
+    "smsNotifications": false,
+    "whatsappAutomation": false,
+    "aiChatbot": false,
+    "advancedAnalytics": false
+  },
+  "environment": {
+    "DATABASE_URL": "postgresql://user:password@localhost:5432/education_db",
+    "JWT_SECRET": "change-this-secret",
+    "RAZORPAY_KEY_ID": "",
+    "RAZORPAY_KEY_SECRET": "",
+    "RAZORPAY_WEBHOOK_SECRET": "",
+    "RESEND_API_KEY": "",
+    "EMAIL_FROM": "noreply@yourdomain.com",
+    "APP_URL": "http://localhost:3000",
+    "API_URL": "http://localhost:4000"
+  },
+  "business": {
+    "currency": "INR",
+    "timezone": "Asia/Kolkata",
+    "academicYear": "2024-2025",
+    "schoolHours": { "start": "08:00", "end": "15:00" },
+    "gradingSystem": "PERCENTAGE",
+    "passingPercentage": 33,
+    "maxStudentsPerClass": 40,
+    "feeReminderDays": 7
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "appName": "EduPlatform",
+  "slug": "eduplatform",
+  "primaryColor": "#7c3aed",
+  "apiUrl": "https://api.example.com",
+  "features": {
+    "courseManagement": true,
+    "studentPortal": true,
+    "batchManagement": true,
+    "feeManagement": true,
+    "onlineTests": false,
+    "liveClasses": false,
+    "parentPortal": false
+  },
+  "ios": {
+    "bundleIdentifier": "app.wonderos.eduplatform"
+  },
+  "android": {
+    "packageName": "app.wonderos.eduplatform"
+  }
+}

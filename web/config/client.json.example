@@ -1,0 +1,19 @@
+{
+  "branding": {
+    "appName": "Bright Future School",
+    "primaryColor": "#0284C7",
+    "tagline": "Nurturing Minds, Shaping Futures",
+    "logoUrl": ""
+  },
+  "features": {
+    "onlineClasses": false,
+    "libraryManagement": true,
+    "transportManagement": false,
+    "smsNotifications": false,
+    "parentPortal": true,
+    "advancedAnalytics": false
+  },
+  "environment": {
+    "API_URL": "http://localhost:4000/api"
+  }
+}
